@@ -1,0 +1,131 @@
+# section information
+section:
+  # Title of section (default: "")
+  name: 关于
+  # url id/slug of section *Required*
+  id: about
+  # Boolean to determine if this section is enabled (default: false)
+  enable: true
+  # Order to display section in (default: alphabetical followed by weight)
+  weight: 1
+  # Boolean to determine if a linWk should be shown for this section on the navbar
+  showOnNavbar: true
+  # allows you to point to a specific template. 
+  template: sections/about.html 
+
+# your designation
+designation: Java软件工程师
+
+# your company information
+company:
+  name: 中软国际
+  url: "http://www.chinasofti.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Java后端开发_廖观旺_1年半经验.pdf"
+
+# a summary about you
+summary: '
+我是一名热情的软件工程师，拥有 3 年的工作经验。
+我使用 GO 为 [Kubernetes](https://kubernetes.io/) 构建了 OSS 工具。
+我的工具帮助人们在 Kubernetes 中部署他们的工作负载。
+有时，我会做一些有趣的项目，比如写一个主题等。'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "example@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/liaoguanwang"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "#"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "#"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: 领导力
+  percentage: 85
+  color: blue
+
+- name: 团队合作
+  percentage: 90
+  color: yellow
+
+- name: 沟通能力
+  percentage: 85
+  color: pink
+
+- name: 勤奋
+  percentage: 85
+  color: green
+
+- name: 快速学习
+  percentage: 85
+  color: sky
+  
+- name: 解决问题
+  percentage: 85
+  color: orange
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+
+badges:
+# - type: certification
+#   name: Certified Kubernetes Security Specialist
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+
+# - type: certification
+#   name: Istio and IBM Cloud Kubernetes Service
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+
+# - type: certification
+#   name: Artificial Intelligence and Machine Learning
+#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+
+# 下面配置等价于softSkills:
+
+# - type: soft-skill-indicator
+#   name: Leadership
+#   percentage: 85
+#   color: blue
+
+# - type: soft-skill-indicator
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
+
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

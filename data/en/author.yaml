@@ -1,0 +1,19 @@
+# some information about you
+name: "LiaoGuanWang"
+nickname: "csliao"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/code-dog.jpg"
+
+# some summary about what you do
+summary:
+  - I am a Java Developer
+  - I love servers
+  - Good good study, day day up
+
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "liaogw@qq.com"
+  phone: "18038179634"
+  # github: johndoe
+  # linkedin: johndoe

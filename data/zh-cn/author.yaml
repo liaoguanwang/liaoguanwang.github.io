@@ -1,0 +1,19 @@
+# some information about you
+name: "廖观旺"
+nickname: "旺"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "你好, 我是"
+image: "images/author/code-dog.jpg"
+
+# some summary about what you do
+summary:
+  - 我是一名Javac程序员
+  - 我喜欢编程
+  - 好好学习，天天向上
+
+# give your some contact information. they will be used in the footer
+contactInfo:
+  邮件: "liaogw@qq.com"
+  手机: "18038179634"
+  # github: johndoe
+  # linkedin: johndoe

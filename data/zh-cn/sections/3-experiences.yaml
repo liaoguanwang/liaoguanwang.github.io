@@ -1,0 +1,42 @@
+# section information
+section:
+  name: 工作经历
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 中软国际
+    url: "http://www.chinasofti.com"
+    location: 中国广东深圳
+    # company overview
+    overview: 例如，这是一家广受认可的云原生开发公司。 它为 Kubernetes 构建工具。
+  positions:
+  - designation: 中级研发工程师
+    start: 2018年9月
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 为ABC任务设计和开发XYZ工具
+    - 设计、开发和管理用于备份 Kubernetes 卷、数据库和集群资源定义的灾难恢复工具 [Xtool](https://www.example.com)。
+    - 领导后端团队。
+
+# - company:
+#     name: PreExample Co.
+#     url: "https://www.preexample.com"
+#     location: Nowhere
+#     overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+#   positions:
+#   - designation: Software Engineer
+#     start: March 2016
+#     end: May 2017
+#     responsibilities:
+#     - Write lots of example codes.
+#     - Read lots of examples.
+#     - See lots of example videos.
